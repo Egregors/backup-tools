@@ -3,9 +3,9 @@
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M")
 BACKUP_DIR="/home/ **** /$TIMESTAMP"
 MYSQL_USER="root"
-MYSQL=/bin/mysql
+MYSQL=/usr/bin/mysql
 MYSQL_PASSWORD=" **** "
-MYSQLDUMP=/bin/mysqldump
+MYSQLDUMP=/usr/bin/mysqldump
 
 mkdir -p $BACKUP_DIR
 
